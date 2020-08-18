@@ -1,10 +1,18 @@
 import React from 'react';
 import 'materialize-css/dist/css/materialize.min.css';
-import Carousel from "./components/Carousel"
+import Navbar from "./components/Navbar"
+import Container from "./components/Container"
+import Portfolio from "./pages/Portfolio"
+import {PortfolioProvider} from "./utils/GlobalState"
 
 function App() {
   return (
-    <Carousel/>
+    <PortfolioProvider>
+    <Container>
+        <Navbar/>
+        <Portfolio/>
+    </Container>
+    </PortfolioProvider>
   );
 }
 
