@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Portfolio3/static/css/main.1006b803.chunk.css",
-    "main.js": "/Portfolio3/static/js/main.69b83bda.chunk.js",
-    "main.js.map": "/Portfolio3/static/js/main.69b83bda.chunk.js.map",
+    "main.css": "/Portfolio3/static/css/main.5c4170b6.chunk.css",
+    "main.js": "/Portfolio3/static/js/main.6ba312a4.chunk.js",
+    "main.js.map": "/Portfolio3/static/js/main.6ba312a4.chunk.js.map",
     "runtime-main.js": "/Portfolio3/static/js/runtime-main.eb7782eb.js",
     "runtime-main.js.map": "/Portfolio3/static/js/runtime-main.eb7782eb.js.map",
     "static/css/2.5a510433.chunk.css": "/Portfolio3/static/css/2.5a510433.chunk.css",
-    "static/js/2.dfc9be5b.chunk.js": "/Portfolio3/static/js/2.dfc9be5b.chunk.js",
-    "static/js/2.dfc9be5b.chunk.js.map": "/Portfolio3/static/js/2.dfc9be5b.chunk.js.map",
+    "static/js/2.dcbc9702.chunk.js": "/Portfolio3/static/js/2.dcbc9702.chunk.js",
+    "static/js/2.dcbc9702.chunk.js.map": "/Portfolio3/static/js/2.dcbc9702.chunk.js.map",
     "index.html": "/Portfolio3/index.html",
-    "precache-manifest.122a38e6aefdd2401ba64b328e5f2077.js": "/Portfolio3/precache-manifest.122a38e6aefdd2401ba64b328e5f2077.js",
+    "precache-manifest.d11e2f17f5f4eda9beceb02612e6b3e6.js": "/Portfolio3/precache-manifest.d11e2f17f5f4eda9beceb02612e6b3e6.js",
     "service-worker.js": "/Portfolio3/service-worker.js",
     "static/css/2.5a510433.chunk.css.map": "/Portfolio3/static/css/2.5a510433.chunk.css.map",
-    "static/css/main.1006b803.chunk.css.map": "/Portfolio3/static/css/main.1006b803.chunk.css.map",
-    "static/js/2.dfc9be5b.chunk.js.LICENSE.txt": "/Portfolio3/static/js/2.dfc9be5b.chunk.js.LICENSE.txt",
+    "static/css/main.5c4170b6.chunk.css.map": "/Portfolio3/static/css/main.5c4170b6.chunk.css.map",
+    "static/js/2.dcbc9702.chunk.js.LICENSE.txt": "/Portfolio3/static/js/2.dcbc9702.chunk.js.LICENSE.txt",
     "static/media/Books1.png": "/Portfolio3/static/media/Books1.4294fe2c.png",
     "static/media/Books2.png": "/Portfolio3/static/media/Books2.681ea407.png",
     "static/media/Fitness1.png": "/Portfolio3/static/media/Fitness1.a5321a30.png",
@@ -34,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.eb7782eb.js",
     "static/css/2.5a510433.chunk.css",
-    "static/js/2.dfc9be5b.chunk.js",
-    "static/css/main.1006b803.chunk.css",
-    "static/js/main.69b83bda.chunk.js"
+    "static/js/2.dcbc9702.chunk.js",
+    "static/css/main.5c4170b6.chunk.css",
+    "static/js/main.6ba312a4.chunk.js"
   ]
 }
