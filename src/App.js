@@ -3,15 +3,16 @@ import 'materialize-css/dist/css/materialize.min.css';
 import Navbar from "./components/Navbar"
 import Container from "./components/Container"
 import Portfolio from "./pages/Portfolio"
-import {PortfolioProvider} from "./utils/GlobalState"
+import { PortfolioProvider } from "./utils/GlobalState"
 
 function App() {
   return (
     <PortfolioProvider>
-    <Container>
-        <Navbar/>
-        <Portfolio/>
-    </Container>
+      <Navbar />
+      <Container>
+
+        <Portfolio />
+      </Container>
     </PortfolioProvider>
   );
 }

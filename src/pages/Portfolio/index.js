@@ -1,13 +1,14 @@
 import React, { useRef, useEffect } from 'react'
 import projects from "../../projects.json"
 import M from "materialize-css"
-import {usePortfolioContext} from "../../utils/GlobalState"
+import { usePortfolioContext } from "../../utils/GlobalState"
 import ProjectDisplay from "../../components/ProjectDisplay"
-import {CloseButton} from "../../components/Buttons"
+import { CloseButton } from "../../components/Buttons"
+import Row from "../../components/Row"
 
 export default function Portfolio() {
 
-    
+
     const [state, dispatch] = usePortfolioContext()
 
     var ModalRef = useRef()
@@ -26,17 +27,18 @@ export default function Portfolio() {
 
     return (
         <div>
-            <div id="modal1" class="modal" ref={ModalRef}>
-                <div class="modal-content">
+            <div id="modal1" className="modal" ref={ModalRef}>
+                <div className="modal-content">
                     <h4>Modal Header</h4>
                     <p>A bunch of text</p>
                 </div>
-                <div class="modal-footer">
-                    <CloseButton closeModal={handleModalClose}/>
+                <div className="modal-footer">
+                    <CloseButton closeModal={handleModalClose} />
                 </div>
             </div>
-
-            {projects.map(project => <ProjectDisplay project={project} openModal = {handleModalOpen} closeModal={handleModalClose}/>)}
+            <Row>
+                {projects.map(project => <ProjectDisplay project={project} openModal={handleModalOpen} closeModal={handleModalClose} key={project.id} />)}
+            </Row>
         </div>
     )
 
