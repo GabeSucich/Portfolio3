@@ -1,8 +1,28 @@
- .modal-img {
-     width: 100%;
-     margin-top: 3%
+.modal-img {
+     width: 90%;
+     margin-top: 3%;
+     border-style: solid;
+     border-color: white;
  }
 
-.footer {
+.heading {
+     margin-top: 6% !important
+ }
+
+.footing {
     margin-bottom: 3px !important;
+}
+
+#modal1 {
+    border-style: solid;
+    border-color: white;
+    min-width: 80% !important;
+    height: 90% !important
+}
+
+@media only screen and (max-width: 600px) {
+
+    .heading {
+        margin-top: 0% !important
+    }
 }

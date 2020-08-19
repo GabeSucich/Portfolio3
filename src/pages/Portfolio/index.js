@@ -40,49 +40,48 @@ export default function Portfolio() {
 
                 <div className="modal-content">
                     <Row classes="">
-                        <Col classes="s12 l7 m12">
+                    <Col classes="s12 m12 l5 push-l7 heading">
+                            <div className="center-align">
+                                <h3>{state.currentProject ? state.currentProject.title : ""}</h3>
+                                <h6>{state.currentProject ? state.currentProject.description : ""}</h6>
+                                <DeployedButton link={state.currentProject ? state.currentProject.Deployed : "/"} />
+                                <GithubButton link={state.currentProject ? state.currentProject.Github : "/"} />
+                                <br/><br/>
+                                <hr className="white" />
+                                <h5>Technologies Utilized:</h5>
+                                <h6>{state.currentProject ? state.currentProject.tech : ""}</h6>
+                                <h6>{state.currentProject ? state.currentProject.npm : ""} </h6>
+                            </div>
+                        </Col>
+                        <Col classes="s12 l7 m12 pull-l5">
                             {state.currentProject ?
                                 <Row classes="">
-                                    <Col classes="s6 m6 l12">
+                                    <Col classes="s12 m12 l12">
                                         <div className="modal-images center-align">
 
-                                            <img className="modal-img" src={getSRC(state.currentProject.src1)}/>
+                                            <img className="modal-img" src={getSRC(state.currentProject.src1)} />
 
                                         </div>
                                     </Col>
-                                    <Col classes="s6 m6 l12">
+                                    <Col classes="s12 m12 l12">
                                         <div className="modal-images center-align">
 
-                                        <img className="modal-img" src={getSRC(state.currentProject.src2)}/>
+                                            <img className="modal-img" src={getSRC(state.currentProject.src2)} />
 
                                         </div>
                                     </Col>
 
                                 </Row> : ""}
                         </Col>
-                        <Col classes="s12 m12 l5">
-                            <div className="center-align">
-                                <h4>{state.currentProject ? state.currentProject.title : ""}</h4>
-                                <p>{state.currentProject ? state.currentProject.description : ""}</p>
-                                <DeployedButton link={state.currentProject ? state.currentProject.Deployed : "/"} />
-                                <GithubButton link={state.currentProject ? state.currentProject.Github : "/"} />
-                            </div>
-                        </Col>
 
                     </Row>
 
-                    <hr className="white" />
-
-
-                    <Row classes="">
-                        <p>Technologies Utilized: </p>
-                    </Row>
 
                 </div>
 
             </div>
 
-            <Row classes="" className="footer">
+            <Row classes="" className="footing">
                 {projects.map(project => <ProjectDisplay project={project} openModal={handleModalOpen} closeModal={handleModalClose} key={project.id} />)}
             </Row>
         </div>

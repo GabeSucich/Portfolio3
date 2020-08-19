@@ -2,68 +2,73 @@
     {
         "id": 1,
         "title": "FinanChill",
-        "description": "FinanChill",
-        "tech": "",
+        "mini": "",
+        "description": "This budgeting app helps uses to stay accountable for their budgeting over time by compiling their spending and saving information into a neatly displayed and informative user interface. Users are given an illustrative history of their spending habits and net financial accumulation, and are provided with suggestions about future purchases which they might be considering.",
+        "tech": "Node js, SQL, Materialize, Chartist js",
+        "npm": "npm Packages: sequelize, mySQL, passport, bcryptjs, express, express-session, express-handlebars",
         "src1": "financhill1.png",
         "src2": "financhill2.png",
-        "Deployed": "",
-        "Github": ""
+        "Deployed": "https://dashboard.heroku.com/apps/desolate-sierra-38032",
+        "Github": "https://github.com/GabeSucich/BudgetingApp"
     },
-
     {
         "id": 2,
         "title": "Project Miles",
+        "mini": "",
         "description": "Project Miles",
-        "tech": "",
+        "tech": "ajax, jQuery, Materialize",
+        "npm": "",
         "src1": "miles1.png",
         "src2": "miles2.png",
-        "Deployed": "",
-        "Github": ""
-
+        "Deployed": "https://gabesucich.github.io/Project1_CGJK/",
+        "Github": "https://github.com/GabeSucich/Project1_CGJK"
     },
-
     {
         "id": 3,
         "title": "React Google Books",
+        "mini": "",
         "description": "React Google Books",
-        "tech": "",
+        "tech": "React",
+        "npm": "npm Packages: mongoose, react-router-dom, axios",
         "src1": "Books1.png",
         "src2": "Books2.png",
-        "Deployed": "",
-        "Github": ""
+        "Deployed": "https://immense-everglades-13293.herokuapp.com/",
+        "Github": "https://github.com/GabeSucich/GoogleBooksReact"
     },
-
     {
         "id": 4,
         "title": "Fitness Tracker",
+        "mini": "",
         "description": "Fitness Tracker",
-        "tech": "",
+        "tech": "Bootstrap, jQuery",
+        "npm": "npm Packages: mongoose",
         "src1": "Fitness1.png",
         "src2": "Fitness2.png",
-        "Deployed": "",
-        "Github": ""
+        "Deployed": "https://dashboard.heroku.com/apps/calm-crag-14292",
+        "Github": "https://github.com/GabeSucich/FitnessTracker"
     },
-
     {
         "id": 5,
         "title": "Quarantine TV Tracker",
+        "mini": "",
         "description": "Quarantine TV Tracker",
-        "tech": "",
+        "tech": "Node js, SQL, Handlebars, Materialize",
+        "npm": "npm Packages: mySQL, express, express-handlebars",
         "src1": "showbinger1.png",
         "src2": "showbinger2.png",
-        "Deployed": "",
-        "Github": ""
+        "Deployed": "https://secure-depths-32676.herokuapp.com/",
+        "Github": "https://github.com/GabeSucich/ShowBinger"
     },
-
     {
         "id": 6,
         "title": "Password Generator",
+        "mini": "",
         "description": "Password Generator",
-        "tech": "",
+        "tech": "Bootstrap, jQuery",
+        "npm": "",
         "src1": "password1.png",
         "src2": "password2.png",
-        "Deployed": "",
-        "Github": ""
+        "Deployed": "https://gabesucich.github.io/Homework03_PasswordGenerator/",
+        "Github": "https://github.com/GabeSucich/Homework03_PasswordGenerator"
     }
-
 ]

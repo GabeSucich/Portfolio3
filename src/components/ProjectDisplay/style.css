@@ -1,14 +1,12 @@
 .col-padding {
 
     margin-top: 2%;
-    padding: 2% !important;
-    border-left-style: solid;
-    border-right-style: solid;
+    padding: 1.5% !important;
 
 }
 
 .image {
-    width: 100%;
+    width: 90%;
     box-shadow: 10px 10px 5px;
 
 }

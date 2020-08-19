@@ -13,19 +13,20 @@ export default function ProjectDisplay({ project, openModal }) {
     }
 
     return (
-        <Col classes="s12 m12 l6 col-padding grey">
+        <Col classes="s12 m12 l12 col-padding grey">
             <Row classes="">
-                <Col classes="s8 m8 l12 col-margin">
+                <Col classes="s8 m8 l12">
                     <div className="center-align">
                         <div className="center-align">
-                            <img className="image" src={getSRC(project.src1)} alt="Main Photo" />
+                            <img className="image" alt="Main Photo" src={getSRC(project.src1)}/>
                         </div>
                     </div>
 
                 </Col>
 
                 <Col classes="s4 m4 l12 col-margin">
-                    <p className="center-align">Project.title</p>
+                    <h5 className="center-align">{project.title}</h5>
+                    <h6 className="center-align">{project.mini}</h6>
                     <div className="center-align">
                         <OpenButton project={project} openModal={openModal} />
                     </div>
