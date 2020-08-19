@@ -1,0 +1,39 @@
+.body {
+   margin-bottom: 3%;
+   margin-top: 8%;
+   padding: 2%
+}
+.about-me {
+    font-weight: bold;
+}
+.about-img{
+    width: 100% !important
+}
+
+#img1 {
+        margin-top: 15%;
+        margin-bottom: 2%
+    }
+
+.container {
+
+    margin-top: 3% !important;
+}
+
+.paragraph {
+    line-height: 1.5;
+}
+
+h6 {
+    font-size: large;
+}
+
+@media only screen and (min-width: 990px) {
+    
+    .imgs {
+        margin-top: 10%
+    }
+
+
+    
+  }

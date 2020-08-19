@@ -55,8 +55,9 @@ export default function Navbar() {
             <nav>
                 <div className="nav-wrapper grey darken-3">
                     <ul className="padder">
-                        <li><a href="sass.html" data-target="slide-out" className="sidenav-trigger show-on-large" >Gabe Sucich</a></li>
-                        <li><a href="badges.html" className="portfolio">Components</a></li>
+                        <li><a href="#" data-target="slide-out" className="sidenav-trigger show-on-large" >Gabe Sucich</a></li>
+                        <li><a href="/" className="portfolio">Portfolio</a></li>
+                        <li><Link to="/about">About Me</Link></li>
                         <li><a target="_blank" href={Resume}>Resume</a></li>
                         <li className="right"><a target="_blank" href="https://www.linkedin.com/in/gabriel-sucich-6a28a71a8/" className="waves-effect blue darken-1 btn-floating btn-large social linkedin">
                             <i className="fa fa-linkedin"></i> Sign in with linkedin</a></li>

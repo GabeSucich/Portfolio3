@@ -25,8 +25,8 @@ export default function ProjectDisplay({ project, openModal }) {
                 </Col>
 
                 <Col classes="s4 m4 l12 col-margin">
-                    <h5 className="center-align">{project.title}</h5>
-                    <h6 className="center-align">{project.mini}</h6>
+                    <h5 className="center-align title">{project.title}</h5>
+                    <p className="center-align mini">{project.mini}</p>
                     <div className="center-align">
                         <OpenButton project={project} openModal={openModal} />
                     </div>

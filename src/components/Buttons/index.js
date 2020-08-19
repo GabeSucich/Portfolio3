@@ -5,7 +5,7 @@ import { usePortfolioContext } from "../../utils/GlobalState"
 export function OpenButton({ project, openModal }) {
 
     return (
-        <a onClick={() => openModal(project)} className="waves-effect blue darken-1 btn"><i className="material-icons right">code</i>Read More</a>
+        <a onClick={() => openModal(project)} className="waves-effect blue darken-1 btn readmore"><i className="material-icons right">code</i>Read More</a>
     )
 
 }

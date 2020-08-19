@@ -5,6 +5,15 @@
 
 }
 
+.title {
+    font-weight: bold;
+}
+.mini {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: large;
+}
+
 .image {
     width: 90%;
     box-shadow: 10px 10px 5px;
