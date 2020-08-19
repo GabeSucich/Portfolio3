@@ -32,18 +32,18 @@ export default function Navbar() {
                 <br />
                 <hr />
                 <li>
-                    <a class="waves-effect blue darken-1 btn col s12 social linkedin">
-                        <i class="fa fa-linkedin white-text"></i> LinkedIn</a>
+                    <a target="_blank" href="https://www.linkedin.com/in/gabriel-sucich-6a28a71a8/" className="waves-effect blue darken-1 btn col s12 social linkedin">
+                        <i className="fa fa-linkedin white-text"></i> LinkedIn</a>
                 </li>
                 <hr />
                 <li>
-                    <a class="waves-effect grey darken-1 btn-large social github">
-                        <i class="fa fa-github white-text"></i> Github</a>
+                    <a target="_blank" href="https://github.com/GabeSucich/" className="waves-effect purple lighten-2 btn-large social github">
+                        <i className="fa fa-github white-text"></i> Github</a>
                 </li>
                 <hr />
                 <li>
                     <div className="center-align">
-                        <img className="profile-img" src={require("../../assets/profile.png")}/>
+                        <img className="profile-img" src={require("../../assets/profile.png")} />
                     </div>
                 </li>
 
@@ -53,11 +53,15 @@ export default function Navbar() {
             </ul>
 
             <nav>
-                <div className="nav-wrapper black">
+                <div className="nav-wrapper grey darken-3">
                     <ul className="padder">
                         <li><a href="sass.html" data-target="slide-out" className="sidenav-trigger show-on-large" >Gabe Sucich</a></li>
-                        <li><a href="badges.html" className="portfolio grey darken-3">Components</a></li>
+                        <li><a href="badges.html" className="portfolio">Components</a></li>
                         <li><a target="_blank" href={Resume}>Resume</a></li>
+                        <li className="right"><a target="_blank" href="https://www.linkedin.com/in/gabriel-sucich-6a28a71a8/" className="waves-effect blue darken-1 btn-floating btn-large social linkedin">
+                            <i className="fa fa-linkedin"></i> Sign in with linkedin</a></li>
+                        <li className="right"><a target="_blank" href="https://github.com/GabeSucich/" className="waves-effect purple lighten-2 btn-floating btn-large social github">
+                            <i className="fa fa-github"></i></a></li>
                     </ul>
                 </div>
             </nav>
