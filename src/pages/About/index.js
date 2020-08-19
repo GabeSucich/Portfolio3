@@ -6,7 +6,7 @@ import Col from "../../components/Col"
 export default function About() {
 
     return (
-        <div className="grey">
+        <div className="grey wrapper">
             <Row className="grey">
                 <Col classes="s12 m12 l7 push-l5 center-align valign-wrapper body">
                     <div className="grey">

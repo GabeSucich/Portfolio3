@@ -57,12 +57,8 @@ export default function Navbar() {
                     <ul className="padder">
                         <li><a href="#" data-target="slide-out" className="sidenav-trigger show-on-large" >Gabe Sucich</a></li>
                         <li><a href="/" className="portfolio">Portfolio</a></li>
-                        <li><Link to="/about">About Me</Link></li>
+                        <li><a href="/about">Bio</a></li>
                         <li><a target="_blank" href={Resume}>Resume</a></li>
-                        <li className="right"><a target="_blank" href="https://www.linkedin.com/in/gabriel-sucich-6a28a71a8/" className="waves-effect blue darken-1 btn-floating btn-large social linkedin">
-                            <i className="fa fa-linkedin"></i> Sign in with linkedin</a></li>
-                        <li className="right"><a target="_blank" href="https://github.com/GabeSucich/" className="waves-effect purple lighten-2 btn-floating btn-large social github">
-                            <i className="fa fa-github"></i></a></li>
                     </ul>
                 </div>
             </nav>

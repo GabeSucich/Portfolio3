@@ -6,6 +6,7 @@ import Container from "./components/Container"
 import Portfolio from "./pages/Portfolio"
 import { PortfolioProvider } from "./utils/GlobalState"
 import About from "./pages/About"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route component={Portfolio} />
           </Switch>
         </Container>
+        <Footer/>
       </PortfolioProvider>
     </Router>
   );
