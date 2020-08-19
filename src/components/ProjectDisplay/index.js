@@ -7,13 +7,18 @@ import { OpenButton } from "../Buttons"
 
 export default function ProjectDisplay({ project, openModal }) {
 
+    function getSRC(filename) {
+
+        return require("../../assets/projects/" + filename)
+    }
+
     return (
         <Col classes="s12 m12 l6 col-padding grey">
-            <Row>
+            <Row classes="">
                 <Col classes="s8 m8 l12 col-margin">
                     <div className="center-align">
                         <div className="center-align">
-                            <img src={project.src1} alt="Main Photo" />
+                            <img className="image" src={getSRC(project.src1)} alt="Main Photo" />
                         </div>
                     </div>
 

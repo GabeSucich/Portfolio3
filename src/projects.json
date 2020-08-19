@@ -4,17 +4,22 @@
         "title": "FinanChill",
         "description": "FinanChill",
         "tech": "",
-        "src1": "",
-        "src2": ""
+        "src1": "financhill1.png",
+        "src2": "financhill2.png",
+        "Deployed": "",
+        "Github": ""
     },
 
     {
         "id": 2,
-        "title": "FinanChill",
+        "title": "Project Miles",
         "description": "Project Miles",
         "tech": "",
-        "src1": "",
-        "src2": ""
+        "src1": "miles1.png",
+        "src2": "miles2.png",
+        "Deployed": "",
+        "Github": ""
+
     },
 
     {
@@ -22,8 +27,10 @@
         "title": "React Google Books",
         "description": "React Google Books",
         "tech": "",
-        "src1": "",
-        "src2": ""
+        "src1": "Books1.png",
+        "src2": "Books2.png",
+        "Deployed": "",
+        "Github": ""
     },
 
     {
@@ -31,8 +38,10 @@
         "title": "Fitness Tracker",
         "description": "Fitness Tracker",
         "tech": "",
-        "src1": "",
-        "src2": ""
+        "src1": "Fitness1.png",
+        "src2": "Fitness2.png",
+        "Deployed": "",
+        "Github": ""
     },
 
     {
@@ -40,8 +49,10 @@
         "title": "Quarantine TV Tracker",
         "description": "Quarantine TV Tracker",
         "tech": "",
-        "src1": "",
-        "src2": ""
+        "src1": "showbinger1.png",
+        "src2": "showbinger2.png",
+        "Deployed": "",
+        "Github": ""
     },
 
     {
@@ -49,8 +60,10 @@
         "title": "Password Generator",
         "description": "Password Generator",
         "tech": "",
-        "src1": "",
-        "src2": ""
+        "src1": "password1.png",
+        "src2": "password2.png",
+        "Deployed": "",
+        "Github": ""
     }
 
 ]
